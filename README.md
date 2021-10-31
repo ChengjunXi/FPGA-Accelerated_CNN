@@ -1,1 +1,0 @@
-# FPGA-Accelerated_CNN
