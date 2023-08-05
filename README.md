@@ -2,7 +2,7 @@
 Because the algorithm contains thousands of states and hundreds of pixels, it is infeasible to show them all. We present the initialization and 10 time points when each probability was computed and compared, verifying that our neural network worked. The shown prediction was on an image containing number 5.
 
 ## Initialization
-![image](https://github.com/ChengjunXi/FPGA-Accelerated_CNN/assets/93487110/22ab46d5-8bb0-4163-ba83-b68b5d8cf9fb)
+![image](https://github.com/ChengjunXi/FPGA-Accelerated_CNN/assets/93487110/5add9ad7-9303-4c17-b685-0b4409101219)
 
 RESET was set high, then NN_START was set to high. After INIT, probs, old_probs and prediction were initialized. old_probs was initialized to lower bound of 32-bit number to ensure it was less than first probability.
 
