@@ -75,5 +75,5 @@ The Python code of the neural network algorithm and its speed test are as follow
 
 The theoretical time for it to run one prediction, estimated by (number of states)/Fmax, was about 0.442 ms. The time of software version was about 42.3 ms. The current design focused on saving area. If needed, area can be exchanged for further acceleration using parallel computation on different convolutional kernel positions, pixels and numbers. 
 
-## Conclusion
+# Conclusion
 We have realized a hardware acceleration of convolutional neural network algorithm on number recognition. It is 100 times faster than the software operations. Our design was focused on saving area due to initial overflow of resources in Quartus, but it was still significantly faster than the software. Therefore, it is both area-concerned and fast. It has great potential to be further accelerated by trading area. Besides, this neural network model can be used as a submodule. It is capable of being integrated into more sophisticated designs. We have gained useful experience in accelerating neural network models.
